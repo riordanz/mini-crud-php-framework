@@ -1,4 +1,4 @@
-# About my project
-PHP Framework for CRUD &amp; Handling Request + Session (Beta Version) (Security Issues Included)
-#How to Use ??
-Coming soon
+# How to use ?
+
+Set table :
+<br>$db->table("table_name")
