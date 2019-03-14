@@ -187,5 +187,8 @@
 			else
 				die($this->conn->error);
 		}
+		public function insert_id(){
+			return $this->conn->insert_id;
+		}
 	}
 ?>

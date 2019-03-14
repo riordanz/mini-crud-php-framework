@@ -6,6 +6,9 @@ class Session extends RnD {
 	public function all(){
 		return $_SESSION;
 	}
+	public function get($ses){
+		return $_SESSION[$ses];
+	}
 	public function has($ses){
 		if (isset($_SESSION[$ses]) && !empty($_SESSION[$ses]))
 			return true;
